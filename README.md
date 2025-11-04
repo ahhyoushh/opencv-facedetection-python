@@ -2,7 +2,13 @@
 
 ## 🔍 Overview
 
-This Python application utilizes OpenCV's pre-trained Haar Cascade Classifier to perform real-time face detection. It captures video from your webcam, detects faces, and highlights them with bounding boxes.
+I was unable to hear my doorbell in my room and used to get a lot of scoldings for it lol. 
+So i came up with a solution:
+The plan is to run this locally on a old unusable smartphone as a door cam to play a bell sound on a remote speaker whenever the camera detects an human. 
+
+
+This Python application utilizes OpenCV's pre-trained Haar Cascade Classifier to perform real-time face detection. It captures video from your webcam, detects faces, and highlights them with bounding boxes and play a bell sound. The script was ran locally on termux on an android phone.
+
 
 ## ⚙️ How It Works
 
