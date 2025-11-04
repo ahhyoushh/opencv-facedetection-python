@@ -14,10 +14,16 @@ This Python application utilizes OpenCV's pre-trained Haar Cascade Classifier to
 
 The script uses OpenCV's `CascadeClassifier` with the `haarcascade_frontalface_default.xml` model to identify faces in each frame of the webcam feed. Detected faces are outlined with rectangles, and the application continues to run until manually closed.
 
+It is ran on a old redmi mobile locally using to termux and used as a doorcam.
+
 ## 📦 Requirements
 
 - `opencv-python` – for computer vision tasks
 - `opencv-python-headless` – for headless environments (optional)
+
+## 🔮 Future Additions:
+
+- Adding feature `leave a message`
 
 ## 🛠️ Installation
 
